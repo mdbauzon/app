@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "true-north",
+    "name": "True North",
     "slug": "true-north",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,18 +9,21 @@
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
+      "resizeMode": "fill",
       "backgroundColor": "#ffffff"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.mdbauzon1.truenorth",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "permissions": [],
+      "versionCode": 1,
+      "edgeToEdge": true
     },
     "web": {
       "favicon": "./assets/favicon.png"

@@ -412,7 +412,7 @@ const questionsData = {
       answer: "Adjusting aerial photos to remove distortions caused by terrain relief and camera tilt"
     },
     {
-      question: "What does a contour line on a map represent",
+      question: "What does a contour line on a map represent?",
       options: [
         "A path between two cities",
         "A line of equal elevation above a datum",
@@ -1230,6 +1230,7 @@ const styles = StyleSheet.create({
     shadowRadius: 10,
     elevation: 5,
   },
+  
   optionText: {
     fontSize: 18,
     color: '#dff6ff',
